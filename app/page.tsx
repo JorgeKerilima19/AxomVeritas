@@ -1,9 +1,12 @@
-import { Navbar } from "@/components";
+import { Hero, Navbar } from "@/components";
 
 export default function Home() {
   return (
-    <main className="bg-bg-primary">
-      <Navbar></Navbar>
-    </main>
+    <>
+      <Navbar />
+      <main className="bg-bg-primary">
+        <Hero />
+      </main>
+    </>
   );
 }

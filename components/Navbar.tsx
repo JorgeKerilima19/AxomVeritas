@@ -17,7 +17,7 @@ export const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <header className="p-4 border-b-2 border-b-gray-400">
+    <header className="p-4 border-b-2 border-b-gray-400 w-full">
       <section className="flex w-full justify-between items-center">
         <Image src="/logo.svg" alt="Axom Veritas Logo" width={80} height={80} />
         <nav>

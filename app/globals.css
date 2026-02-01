@@ -21,13 +21,14 @@ a {
 @theme {
   --color-primary: #c1121f;
   --color-secondary: #006992;
-  --color-tertiary: #4e0250;
+  --color-tertiary: #6c63ff;
   --color-bg-primary: #eff2ef;
   --color-bg-secondary: #071108;
 }
 
 section {
   max-width: 140rem;
+  margin: 0 auto;
 }
 
 body {
