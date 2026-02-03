@@ -1,4 +1,4 @@
-import HeroSvg from "@/public/assets/HeroSvg";
+import { HeroSvg } from "@/public/assets";
 
 export const Hero = () => {
   return (

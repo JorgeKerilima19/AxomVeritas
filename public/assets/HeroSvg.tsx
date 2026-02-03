@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function HeroSvg() {
+export function HeroSvg() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 833.222 633.11">
       <path

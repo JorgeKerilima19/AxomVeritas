@@ -1,4 +1,4 @@
-import { Hero, Navbar } from "@/components";
+import { Hero, Navbar, Services } from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Navbar />
       <main className="bg-bg-primary">
         <Hero />
+        <Services />
       </main>
     </>
   );

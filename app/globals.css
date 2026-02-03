@@ -36,3 +36,48 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.service-arrow {
+  fill: var(--color-primary);
+  height: 2.6rem;
+  width: 2.6rem;
+  position: relative;
+  animation: code 1s infinite alternate-reverse;
+}
+
+.service-svg_title {
+  fill: var(--color-primary);
+  height: 2.2rem;
+  width: 15rem;
+  line {
+    width: 15rem;
+    fill: var(--color-primary);
+    stroke: var(--color-primary);
+  }
+}
+.service-svg_title-1 {
+  fill: var(--color-primary);
+  height: 1.6rem;
+  width: 1.6rem;
+  path {
+    fill: var(--color-primary);
+  }
+}
+.service-card {
+  &:hover {
+    svg {
+      fill: #ffffff;
+      path {
+        fill: #ffffff;
+      }
+    }
+  }
+}
+@keyframes code {
+  0% {
+    transform: translateX(-2rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
